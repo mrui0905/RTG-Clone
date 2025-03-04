@@ -5,7 +5,7 @@ from load_model import load_model
 from transformers import GPT2TokenizerFast
 import torch.nn.functional as F
 import sampling
-
+import numpy as np
 
 def main():
     torch.manual_seed(0)

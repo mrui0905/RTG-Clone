@@ -1,6 +1,6 @@
 import torch
 import argparse
-
+import random
 from load_model import load_model
 from transformers import GPT2TokenizerFast
 import torch.nn.functional as F
